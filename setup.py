@@ -10,9 +10,9 @@ import pkg_resources
 
 with pathlib.Path("requirements.txt").open() as requirements_txt:
     install_requires = [str(requirement) for requirement in pkg_resources.parse_requirements(requirements_txt)]
-    
+
 setup(
-    name="DHH",
+    name="dhh",
     version="0.1",
     python_requires=">=3.8",
     packages=find_packages(where="src"),
