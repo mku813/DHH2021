@@ -1,7 +1,8 @@
-import os
-
 import numpy as np
 import pandas as pd
 
-np.zeros(10)
+
+CV = pd.read_csv('dataset/Clinical_variables.csv')
+
+
 
